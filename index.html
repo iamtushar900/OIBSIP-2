@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do web App</title>
+    <link
+      rel="shortcut icon"
+      href="images/to-do list.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <body>
+      <h2 id="top">
+        Project - 2 (A Basic Task Reminder Web App Using HTML , CSS & JavaScript)
+       
+      </h2>
+      <div class="main">
+        <div class="container">
+          <div class="heading">
+            <h1>To-Do List App Demo</h1>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Please Add Your Tasks Here..." />
+            <button onclick="addtask()">Add</button>
+          </div>
+
+          <ul class="todoLists"></ul>
+          <div class="tasks-detail">
+            <span
+              >You have <span class="pending-num"> no </span> tasks
+              pending.</span
+            >
+            <button class="clear-button">Clear All</button>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <span
+          >This Page Is Designed by
+          <a
+            href="https://www.linkedin.com/in/tushar-ranjan-mallick-aaa486270"
+            target="_blank"
+            >Tushar Ranjan Mallick</a
+          ></span
+        >
+        <h2>Thanks For Visiting.</h2>
+      </footer>
+      <script src="index.js"></script>
+    </body>
+  </body>
+</html>
